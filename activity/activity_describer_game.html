@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Describe-It! — 60s Team Card Game</title>
+  <style>
+    :root{--bg:#0f172a;--card:#0b1220;--accent:#06b6d4;--muted:#94a3b8;--glass: rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial; margin:0; background:linear-gradient(180deg,#071022 0%, #071428 60%); color:#e6eef6; display:flex; align-items:center; justify-content:center; padding:20px}
+    .app{width:100%;max-width:980px}
+    header{display:flex;align-items:center;gap:16px;margin-bottom:18px}
+    h1{font-size:20px;margin:0}
+    .controls{display:flex;gap:8px;margin-left:auto}
+
+    .board{display:grid;grid-template-columns:1fr 320px; gap:18px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border-radius:14px;padding:22px; box-shadow:0 6px 20px rgba(2,6,23,0.6)}
+    .big-word{font-size:44px;font-weight:700;letter-spacing:0.6px;text-align:center;margin:6px 0}
+    .forbidden{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:10px}
+    .chip{padding:8px 12px;border-radius:999px;background:var(--glass); color:var(--muted);font-weight:600}
+
+    .panel{display:flex;flex-direction:column;gap:12px}
+    .stat-row{display:flex;gap:12px;align-items:center}
+    .stat{background:rgba(255,255,255,0.02);padding:12px;border-radius:10px;flex:1;text-align:center}
+    .stat .num{font-size:26px;font-weight:700}
+    .timer{font-size:42px;font-weight:800;color:var(--accent);text-align:center}
+
+    .btn{appearance:none;border:0;padding:10px 14px;border-radius:10px;font-weight:700;cursor:pointer}
+    .btn-start{background:linear-gradient(90deg,var(--accent),#10b981);color:#022;box-shadow:0 8px 28px rgba(6,182,212,0.12)}
+    .btn-success{background:#10b981;color:#012;}
+    .btn-skip{background:#ef4444;color:#fff}
+    .btn-neutral{background:rgba(255,255,255,0.03);color:var(--muted)}
+
+    .small{font-size:13px;color:var(--muted)}
+    textarea{width:100%;min-height:120px;background:transparent;border:1px dashed rgba(255,255,255,0.04);color:inherit;padding:8px;border-radius:8px}
+
+    footer{margin-top:12px;display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:13px}
+
+    @media (max-width:880px){.board{grid-template-columns:1fr;}.panel{order:2}}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Describe-It! — 60s Team Card Game</h1>
+      <div class="controls">
+        <button id="downloadHtml" class="btn btn-neutral small">Download HTML</button>
+        <button id="shuffleBtn" class="btn btn-neutral small">Shuffle Cards</button>
+      </div>
+    </header>
+
+    <div class="board">
+      <section class="card" id="gameCard">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <div class="small">Card <span id="cardIndex">0</span>/<span id="cardTotal">0</span></div>
+          <div class="small">Round: <span id="roundActive">Stopped</span></div>
+        </div>
+
+        <div style="margin-top:18px">
+          <div class="big-word" id="targetWord">Press Start</div>
+          <div class="forbidden" id="forbiddenList"></div>
+        </div>
+
+        <div style="display:flex;gap:12px;justify-content:center;margin-top:18px">
+          <button id="successBtn" class="btn btn-success" disabled>✓ Success (Space)</button>
+          <button id="skipBtn" class="btn btn-skip" disabled>↻ Skip (S)</button>
+        </div>
+
+        <div style="display:flex;justify-content:center;margin-top:12px">
+          <button id="startBtn" class="btn btn-start">Start Round — 60s</button>
+        </div>
+
+        <div style="margin-top:12px;text-align:center;color:var(--muted)">Tip: press <strong>Space</strong> for success, <strong>S</strong> to skip.</div>
+      </section>
+
+      <aside class="panel">
+        <div class="card">
+          <div style="display:flex;gap:10px;align-items:center;justify-content:space-between">
+            <div>
+              <div class="small">Time</div>
+              <div class="timer" id="timerDisplay">60</div>
+            </div>
+            <div style="flex:1">
+              <div class="small">Score</div>
+              <div class="stat" id="scoreDisplay"><div class="num" id="score">0</div></div>
+            </div>
+          </div>
+
+          <div style="margin-top:12px">
+            <div class="small">Cards remaining <span id="remaining">0</span></div>
+            <div style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap">
+              <button id="prevCard" class="btn btn-neutral">◀ Prev</button>
+              <button id="nextCard" class="btn btn-neutral">Next ▶</button>
+              <button id="resetScore" class="btn btn-neutral">Reset Score</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="small">Edit / Import Cards</div>
+          <textarea id="cardsInput" placeholder="One card per line: target | forbidden1,forbidden2,forbidden3,forbidden4,forbidden5\nExample: Apple | fruit,red,tree,core,juice"></textarea>
+          <div style="display:flex;gap:8px;margin-top:8px">
+            <button id="loadCards" class="btn btn-start">Load Cards</button>
+            <button id="addSample" class="btn btn-neutral">Add Sample Cards</button>
+          </div>
+          <div style="margin-top:8px" class="small">You can paste many lines. Fields are trimmed. Skipped lines or malformed ones are ignored.</div>
+        </div>
+
+        <div class="card">
+          <div class="small">Round log</div>
+          <div id="log" style="max-height:160px;overflow:auto;padding-top:8px;color:var(--muted);font-size:13px"></div>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <div>Made for quick party play — standalone HTML. Save the file with the Download button.</div>
+      <div>Keyboard: Space = success · S = skip</div>
+    </footer>
+  </div>
+
+  <script>
+    // --- game data ---
+    let cards = [
+      {word: 'Apple', forbidden: ['fruit','red','tree','core','juice']},
+      {word: 'Piano', forbidden: ['keys','music','instrument','play','melody']},
+      {word: 'Train', forbidden: ['tracks','station','engine','carriage','travel']},
+      {word: 'Basketball', forbidden: ['ball','hoop','court','dribble','score']},
+      {word: 'Camera', forbidden: ['photo','lens','picture','shoot','focus']}
+    ];
+
+    // --- state ---
+    let currentIndex = 0;
+    let score = 0;
+    let timer = 60;
+    let intervalId = null;
+    let roundActive = false;
+
+    // --- ui refs ---
+    const targetWordEl = document.getElementById('targetWord');
+    const forbiddenListEl = document.getElementById('forbiddenList');
+    const timerDisplay = document.getElementById('timerDisplay');
+    const startBtn = document.getElementById('startBtn');
+    const successBtn = document.getElementById('successBtn');
+    const skipBtn = document.getElementById('skipBtn');
+    const scoreEl = document.getElementById('score');
+    const cardIndexEl = document.getElementById('cardIndex');
+    const cardTotalEl = document.getElementById('cardTotal');
+    const remainingEl = document.getElementById('remaining');
+    const roundActiveEl = document.getElementById('roundActive');
+    const logEl = document.getElementById('log');
+    const cardsInput = document.getElementById('cardsInput');
+    const loadCardsBtn = document.getElementById('loadCards');
+    const addSampleBtn = document.getElementById('addSample');
+    const prevCardBtn = document.getElementById('prevCard');
+    const nextCardBtn = document.getElementById('nextCard');
+    const resetScoreBtn = document.getElementById('resetScore');
+    const shuffleBtn = document.getElementById('shuffleBtn');
+    const downloadHtmlBtn = document.getElementById('downloadHtml');
+
+    // --- helpers ---
+    function shuffleArray(a){
+      for(let i=a.length-1;i>0;i--){
+        const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];
+      }
+    }
+
+    function renderCard(){
+      if(cards.length===0){
+        targetWordEl.textContent = 'No cards — add some!';
+        forbiddenListEl.innerHTML = '';
+        cardIndexEl.textContent = 0;
+        cardTotalEl.textContent = 0;
+        remainingEl.textContent = 0;
+        return;
+      }
+      const c = cards[currentIndex % cards.length];
+      targetWordEl.textContent = c.word;
+      forbiddenListEl.innerHTML = '';
+      c.forbidden.forEach(w=>{
+        const span = document.createElement('div');
+        span.className = 'chip';
+        span.textContent = w;
+        forbiddenListEl.appendChild(span);
+      });
+      cardIndexEl.textContent = (currentIndex%cards.length)+1;
+      cardTotalEl.textContent = cards.length;
+      remainingEl.textContent = Math.max(0,cards.length - (currentIndex%cards.length) - 1);
+    }
+
+    function log(msg){
+      const el = document.createElement('div');
+      el.textContent = `${new Date().toLocaleTimeString()}: ${msg}`;
+      logEl.prepend(el);
+    }
+
+    function startRound(){
+      if(cards.length===0) return alert('Add cards first.');
+      score = 0; updateScore();
+      timer = 60; updateTimer();
+      roundActive = true; roundActiveEl.textContent = 'Active';
+      successBtn.disabled = false; skipBtn.disabled = false; startBtn.disabled = true;
+      // ensure fresh order
+      shuffleArray(cards);
+      currentIndex = 0;
+      renderCard();
+      log('Round started (60s)');
+      intervalId = setInterval(()=>{
+        timer--; updateTimer();
+        if(timer<=0){
+          stopRound();
+        }
+      },1000);
+    }
+
+    function stopRound(){
+      clearInterval(intervalId); intervalId=null; roundActive=false;
+      startBtn.disabled = false; successBtn.disabled = true; skipBtn.disabled = true;
+      roundActiveEl.textContent = 'Stopped';
+      log(`Round ended. Final score: ${score}`);
+    }
+
+    function updateTimer(){ timerDisplay.textContent = timer; }
+    function updateScore(){ scoreEl.textContent = score; }
+
+    function givePoint(){ if(!roundActive) return; score++; updateScore(); log(`+1 for '${cards[currentIndex].word}' — score ${score}`); nextCard(); }
+    function skipPoint(){ if(!roundActive) return; score--; updateScore(); log(`-1 skip for '${cards[currentIndex].word}' — score ${score}`); nextCard(); }
+
+    function nextCard(){
+      currentIndex = (currentIndex+1) % cards.length; renderCard();
+    }
+    function prevCard(){ currentIndex = (currentIndex-1+cards.length) % cards.length; renderCard(); }
+
+    function resetScore(){ score=0; updateScore(); log('Score reset'); }
+
+    function loadCardsFromTextarea(){
+      const lines = cardsInput.value.split('\n').map(l=>l.trim()).filter(Boolean);
+      const parsed=[];
+      for(const ln of lines){
+        // expected: target | f1,f2,f3,f4,f5
+        const parts = ln.split('|').map(p=>p.trim());
+        if(parts.length<2) continue;
+        const word = parts[0];
+        const forb = parts[1].split(',').map(s=>s.trim()).filter(Boolean).slice(0,5);
+        if(!word || forb.length===0) continue;
+        parsed.push({word, forbidden: forb});
+      }
+      if(parsed.length===0) return alert('No valid lines found. Use the example format.');
+      cards = parsed; currentIndex = 0; renderCard(); log('Loaded cards from input');
+    }
+
+    function addSampleCards(){
+      const sample = [
+        {word:'Sunflower', forbidden:['yellow','sun','flower','tall','seeds']},
+        {word:'Rocket', forbidden:['space','launch','engine','astronaut','orbit']},
+        {word:'Coffee', forbidden:['cup','caffeine','bean','morning','espresso']},
+        {word:'Library', forbidden:['books','quiet','shelves','borrow','reading']}
+      ];
+      cards = cards.concat(sample); renderCard(); log('Added sample cards');
+    }
+
+    // --- init ---
+    renderCard(); updateScore(); updateTimer();
+
+    // --- events ---
+    startBtn.addEventListener('click', startRound);
+    successBtn.addEventListener('click', givePoint);
+    skipBtn.addEventListener('click', skipPoint);
+    nextCardBtn.addEventListener('click', ()=>{ nextCard(); log('Manually advanced card'); });
+    prevCardBtn.addEventListener('click', ()=>{ prevCard(); log('Moved to previous card'); });
+    resetScoreBtn.addEventListener('click', ()=>{ if(confirm('Reset score to 0?')) resetScore(); });
+    loadCardsBtn.addEventListener('click', loadCardsFromTextarea);
+    addSampleBtn.addEventListener('click', addSampleCards);
+    shuffleBtn.addEventListener('click', ()=>{ shuffleArray(cards); currentIndex=0; renderCard(); log('Shuffled cards'); });
+
+    // keyboard shortcuts
+    document.addEventListener('keydown', (e)=>{
+      if(e.code==='Space'){ e.preventDefault(); if(!successBtn.disabled) givePoint(); }
+      if(e.key.toLowerCase()==='s'){ if(!skipBtn.disabled) skipPoint(); }
+    });
+
+    // Download HTML of current page
+    downloadHtmlBtn.addEventListener('click', ()=>{
+      const blob = new Blob([ '<!doctype html>\n' + document.documentElement.outerHTML ], {type:'text/html'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a'); a.href=url; a.download='describe-it-game.html'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+    });
+
+    // expose small API for advanced users (dev console)
+    window.describeIt = {cards, getState:()=>({score,timer,currentIndex,cardsCount:cards.length}), startRound, stopRound};
+  </script>
+</body>
+</html>
