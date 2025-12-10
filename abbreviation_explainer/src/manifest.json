@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Context Abbreviation Explainer",
+  "version": "1.0",
+  "description": "Explains abbreviations using webpage context",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "host_permissions": ["http://*/*", "https://*/*"]
+}
