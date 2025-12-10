@@ -1,9 +1,9 @@
-# Describe-It! — 60s Team Card Game
+# Activity! — 60s Team Card Game
 
 Hi! This is my try at **vibe coding** — a simple web-based version of the classic Activity-style describing game.
 
 ## 🎮 How to Play
-1. Open the `describe-it-game.html` file in any browser.
+1. Open the `activity.html` file in any browser.
 2. When ready, click **Start Round — 60s**. You’ll get one card with:
    - A **main word** to describe to your teammate.
    - Five **forbidden words** you are *not allowed* to say.
@@ -11,6 +11,7 @@ Hi! This is my try at **vibe coding** — a simple web-based version of the clas
    - If your teammate guesses correctly → press **Success** (or hit **Space**) to earn +1 point.
    - If you want to skip a word → press **Skip** (or hit **S**) and lose 1 point.
 4. When time runs out, your final score is shown in the log panel.
+5. Next teams turn
 
 ## 🃏 Adding or Importing Cards
 You can import your own cards via the **“Edit / Import Cards”** section on the right:
@@ -25,10 +26,16 @@ You can import your own cards via the **“Edit / Import Cards”** section on t
   ```
 - Paste your list into the box and click **Load Cards**.
 
-You can also download or create `.txt` files with hundreds of cards — both English and German examples are included (`cards_1000.txt`, `karten_1000_deutsch.txt`).
+You can also copy words from the `.txt` directly. They contain with 350/250 cards and are for English/German— both English and German examples are included (`cards_1000.txt`, `activity_woerter.txt`).
 
 ## 💡 Tips
 - You can shuffle cards, reset the score, or download the entire HTML game for sharing.
 - Everything runs locally — no installation or server required.
 
 Enjoy your game night and have fun with your team!
+
+## Author
+
+**ChatGPT 5** as of September 2025
+
+the app was oneshot by chatty - The card creation was more problematic and worked only when reducing the number of words i and with the help of gemini
