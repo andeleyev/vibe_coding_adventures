@@ -1,1000 +1,384 @@
-Golf | Star,Small,Cold,Blue,Fast
-Violin | violin,Shark,Cold,Sun,Bear
-Happy Flower | happy,flower,Flower,Moon,Big
-Rollercoaster | rollercoaster,Hot,Cold,Cat,Whale
-Chef | chef,Cloud,Shark,Sun,Sad
-Slow Fish | Scary,Cloud,Shark,slow,Moon
-Slow Bear | Shark,slow,Cat,Slow,Whale
-Book | Cloud,Lion,Sad,Whale,book
-Engineer | engineer,Blue,Moon,Slow,Angry
-Blue Whale | blue,Horse,Flower,Angry,Whale
-Red Shark | Hot,Shark,Red,red,Green
-Clown | Tree,Cute,Sad,Flower,clown
-Big Horse | big,horse,Red,Flower,Fast
-Cute Cloud | Cute,Lion,Red,Flower,cloud
-Yoga | Star,Horse,Shark,Bear,yoga
-Scary Horse | Cute,Fish,horse,Blue,scary
-Scary Cat | Cloud,Horse,Red,Flower,cat
-Sad Dog | Cloud,Horse,sad,Red,Sad
-Blue Moon | blue,Sun,Sad,Flower,moon
-Knight | Tree,Lion,knight,Moon,Slow
-Pirate | pirate,Bear,Cat,Sad,Whale
-Scary Cat | Star,Happy,Shark,Cold,cat
-Cute Moon | Hot,Bear,Flower,Moon,moon
-Blue Fish | blue,Hot,Lion,Green,Whale
-Funny Moon | Cute,Cloud,Hot,Green,moon
-Red Shark | Small,Bear,Sun,red,Green
-Angry Tree | Tree,Small,Shark,Cat,angry
-Blue Sun | Tree,blue,Hot,sun,Cat
-Angry Bear | Tree,Lion,Small,Shark,Bear
-Penguin | Bear,Cat,Blue,Slow,penguin
-Hockey | Cute,Horse,Happy,hockey,Cat
-Soldier | Tree,soldier,Small,Flower,Whale
-Happy Whale | happy,Star,Cloud,Hot,Cold
-Blue Bird | bird,blue,Lion,Small,Bear
-Green Star | Cute,Hot,green,Blue,Green
-Happy Bird | happy,bird,Fish,Bear,Sad
-Hot Tree | Cute,hot,Lion,Small,Sun
-Small Shark | Tree,Hot,Small,Red,Moon
-Big Cat | Star,big,Cold,Green,cat
-Slow Moon | Horse,Hot,Bear,slow,Sad
-Pirate | Star,pirate,Cold,Shark,Sad
-Fast Fish | Cloud,Lion,Bear,Bird,fast
-Hot Whale | Cute,hot,Cloud,Shark,Sad
-Big Bird | Cute,bird,big,Happy,Sun
-Cute Flower | Scary,Cloud,Small,flower,Moon
-Driver | Tree,Star,Green,Whale,Funny
-Swimming | Shark,Cat,Flower,swimming,Dog
-Scary Whale | Hot,Lion,Red,Green,Moon
-Cute Cloud | Star,Happy,Lion,Cold,cloud
-Fast Star | Small,Cold,Blue,Flower,star
-Slow Fish | Fish,Small,Shark,slow,fish
-Happy Dog | happy,Horse,Happy,Cold,dog
-Pilot | pilot,Cute,Hot,Blue,Fast
-Scary Moon | Horse,Hot,Small,Flower,moon
-Red Bear | Cute,Cold,Red,Sad,red
-Happy Star | happy,Tree,Hot,Green,star
-Airport | Scary,Sun,Red,Whale,Fast
-Restaurant | restaurant,Hot,Cold,Sad,Moon
-Hot Fish | hot,Happy,Lion,Cold,Bear
-Scary Flower | Hot,flower,Angry,scary,Big
-Happy Whale | happy,Cute,Cloud,Bear,Sad
-Red Lion | Star,Lion,Shark,Sad,red
-Cold Tree | Moon,Slow,tree,cold,Fast
-Blue Star | Star,blue,Cold,Sun,Flower
-Sad Bear | Hot,sad,Flower,Moon,bear
-Scary Tree | Big,Hot,Cold,Bear,scary
-Small Tree | Happy,Lion,Shark,tree,Cat
-Highway | Tree,highway,Lion,Shark,Sad
-Big Tree | big,Small,Cold,Shark,Sun
-Painter | Horse,Hot,Cat,painter,Fast
-Rainbow | Hot,Bird,rainbow,Whale,Angry
-Big Bird | Cute,bird,Cloud,Horse,big
-Slow Tree | Cute,Big,Horse,Bear,Sun
-Angry Sun | Fish,sun,Blue,Sad,Moon
-Slow Flower | flower,slow,Sad,Green,Moon
-Train | Tree,Cold,train,Moon,Funny
-Sad Shark | Cloud,Horse,sad,Lion,Shark
-Football | Tree,football,Hot,Fish,Big
-Scientist | Cute,scientist,Small,Shark,Bear
-Princess | Cute,Red,Green,princess,Whale
-Small Bird | bird,Shark,Blue,Moon,small
-Sad Tree | Big,Hot,sad,Lion,Cat
-Happy Flower | happy,Horse,flower,Slow,Whale
-Slow Bear | Tree,Cute,Fish,Bear,slow
-Island | Hot,Flower,Slow,Whale,Big
-Cute Shark | Happy,Cold,Blue,Flower,Moon
-Scary Whale | Small,Sad,Green,whale,scary
-Planet | Cute,Shark,Sun,Sad,Slow
-Green Moon | Cloud,Fish,Hot,Small,green
-Princess | Blue,princess,Angry,Dog,Funny
-Happy Sun | happy,Cloud,sun,Cold,Moon
-Cute Cat | Cute,Fish,Hot,cat,Slow
-Fast Shark | Tree,Lion,Cold,Sun,Slow
-Fast Star | Cloud,Lion,Sun,star,Moon
-Cold Star | Horse,Red,Cat,Sad,star
-Red Whale | Horse,Happy,Red,red,Angry
-Blue Star | blue,Horse,Fish,Hot,star
-Karate | Cloud,Fish,Cold,Sad,Blue
-Road | road,Bear,Moon,Angry,Funny
-Fast Flower | Fish,flower,Bear,Blue,Green
-Angry Horse | Star,horse,Small,Cat,Green
-Scary Horse | horse,Shark,Cold,scary,Big
-Bottle | Fish,Moon,Slow,bottle,Big
-Angry Star | Horse,Fish,Hot,Bear,Green
-Big Star | big,Lion,Sun,Blue,star
-Baseball | baseball,Shark,Bear,Sad,Whale
-Happy Bird | happy,bird,Fish,Bird,Cat
-Astronaut | Hot,astronaut,Shark,Green,Slow
-Violin | Cute,Cloud,Happy,violin,Lion
-Cute Shark | Cloud,Horse,Flower,Angry,Whale
-Doctor | Hot,Cold,Bear,Sad,Angry
-Happy Shark | happy,Lion,Small,Shark,shark
-Happy Cloud | happy,Shark,Bear,Slow,cloud
-Funny Bear | Cloud,Bear,Red,Blue,Angry
-Scary Bear | Bear,Red,Green,Moon,Slow
-Blue Whale | Cloud,blue,Small,Shark,Bear
-Small Cloud | Horse,Fish,Sad,Flower,small
-Sad Fish | Cute,Star,sad,Flower,Angry
-Soccer | Star,Horse,soccer,Green,Moon
-Volcano | Cute,Cold,Blue,volcano,Fast
-Artist | Tree,Cloud,Shark,Bear,artist
-Blue Dog | blue,Cold,Sun,Green,dog
-Fast Sun | Cute,Hot,Fish,sun,Moon
-Cute Bear | Cloud,Bear,Green,Flower,Dog
-Big Horse | Cloud,big,Hot,horse,Cat
-Slow Horse | Hot,horse,Lion,Small,slow
-Scary Star | Bear,star,Slow,Angry,scary
-Funny Shark | Cute,Horse,Lion,Cold,shark
-Red Bird | Tree,bird,Lion,Small,red
-Sad Dog | Horse,sad,Green,dog,Flower
-Angry Cloud | Cloud,Lion,Red,Cat,cloud
-Red Cat | Shark,Sun,Red,Blue,red
-Scary Fish | Tree,Star,Blue,Green,Angry
-Funny Cat | Fish,Blue,Flower,cat,funny
-Cold Flower | Lion,flower,Bear,Sun,Blue
-Slow Horse | Fish,horse,slow,Blue,Sad
-Ocean | ocean,Cute,Cloud,Small,Shark
-Small Cat | Cloud,Small,cat,small,Whale
-Angry Fish | Star,Bear,Cat,Moon,angry
-Angry Fish | Flower,Moon,Whale,angry,fish
-Small Shark | Cloud,Lion,Sun,Flower,small
-Green Star | Cold,Bear,green,Cat,Green
-Fast Bear | Cute,Star,Cold,Red,Green
-Green Cloud | Tree,Cute,green,Angry,cloud
-Red Tree | Small,Sun,red,Whale,tree
-Happy Bird | happy,bird,Hot,Red,Cat
-Big Flower | Cloud,big,flower,Bear,Blue
-Slow Bird | Cute,bird,Hot,Shark,Red
-Happy Tree | happy,Horse,Fish,Sun,Cat
-Small Moon | Cute,Horse,Moon,moon,small
-Storm | storm,Tree,Cute,Cloud,Sun
-Baker | Fish,Blue,Green,baker,Big
-Hot Bird | bird,hot,Fish,Bear,Red
-Big Bird | bird,big,Happy,Blue,Slow
-Cold Lion | Cat,lion,Slow,Angry,Whale
-Golf | Star,Fish,Bear,Cat,Whale
-Table | Cute,Horse,Cat,table,Fast
-Highway | highway,Horse,Lion,Bear,Whale
-Angry Moon | Cloud,Horse,Shark,Red,Green
-Sad Shark | Hot,sad,Bear,Green,Slow
-Hot Cat | Star,hot,Hot,Bear,Sad
-Volcano | Lion,Cold,Bird,Slow,volcano
-Movie | movie,Cloud,Green,Moon,Slow
-Island | Star,Cold,Red,Blue,Angry
-Slow Bear | Cute,Star,Cloud,Bear,slow
-Angry Fish | Tree,Cloud,Hot,Cold,angry
-Diving | Cute,diving,Sun,Moon,Fast
-Golf | Happy,Hot,Bird,Green,Slow
-Cold Tree | Tree,Happy,Cat,tree,cold
-Football | football,Hot,Lion,Flower,Slow
-Robot | robot,Shark,Cold,Blue,Fast
-Cold Star | Lion,Small,Cold,Flower,star
-Blue Star | Star,blue,Sad,Green,Blue
-Scary Sun | sun,Lion,Flower,Slow,scary
-Cold Bird | Cute,bird,Cloud,Cold,Green
-Happy Lion | happy,Tree,Hot,Shark,Blue
-Green Dog | Cute,Cloud,Happy,Cold,Shark
-Scary Whale | Happy,Green,whale,scary,Big
-Robot | robot,Lion,Cold,Sun,Flower
-Phone | Cloud,Fish,Sad,phone,Funny
-Red Whale | Tree,Cold,Cat,red,Flower
-Astronaut | Cute,Hot,Sun,astronaut,Funny
-Green Flower | flower,green,Red,Green,Whale
-Hot Shark | Star,hot,Lion,Cold,Sun
-Music | music,Cold,Red,Slow,Big
-Big Fish | big,Small,Bear,Cat,Blue
-Slow Bear | Cold,slow,Sad,Cat,bear
-Truck | Scary,Cloud,Happy,truck,Moon
-Cute Tree | Cute,Cloud,tree,Sad,Blue
-Restaurant | restaurant,Horse,Fish,Red,Green
-Green Bird | bird,Lion,green,Sad,Slow
-Green Lion | Horse,Fish,Red,green,lion
-Happy Fish | happy,Scary,Cold,Flower,Angry
-Big Bear | big,Lion,Sun,Blue,Slow
-Chair | Cute,Cloud,chair,Happy,Cold
-Astronaut | Happy,Red,Blue,Green,astronaut
-Cute Cloud | Happy,Cold,Sun,Moon,cloud
-Funny Whale | Cute,Lion,Red,whale,Slow
-Angry Star | Cloud,Sun,Cat,Green,star
-Hot Fish | hot,Horse,Sun,Red,Moon
-Hot Lion | hot,Small,Cold,Sun,lion
-Soccer | Cute,Horse,Hot,Lion,soccer
-Train | Happy,train,Blue,Moon,Whale
-Sad Lion | Star,Cloud,sad,Shark,lion
-Highway | highway,Hot,Small,Flower,Slow
-Robot | Cute,robot,Cold,Sad,Flower
-Big Dog | big,Shark,Cold,Sun,dog
-Apple | Cloud,Sun,Blue,Flower,Moon
-Hot Horse | Cute,hot,Happy,horse,Sad
-Red Whale | Cute,Cloud,Fish,Lion,red
-Slow Bird | bird,Hot,Small,Cold,Bear
-Cold Cloud | Hot,Shark,Flower,Whale,cloud
-Scary Cloud | Star,Cloud,Fish,Moon,Slow
-Green Lion | Cute,Hot,Small,Cold,green
-Big Shark | Tree,Star,big,Happy,Lion
-Happy Bear | happy,Fish,Cat,Blue,bear
-Slow Dog | Cute,Fish,slow,Green,dog
-Angry Sun | Cloud,Hot,sun,Small,angry
-Cute Lion | Small,Cold,lion,Moon,Angry
-Blue Whale | blue,Horse,Lion,Red,Whale
-Funny Cloud | Cute,Fish,Small,Red,Blue
-Cute Horse | Cute,Star,Happy,horse,Small
-Hot Bear | hot,Cloud,Hot,Green,Flower
-Blue Fish | Tree,Star,blue,Small,Bear
-Penguin | Fish,Lion,Small,Slow,penguin
-Green Fish | Star,Hot,Lion,Cold,green
-Scary Bear | Happy,Fish,Cat,scary,bear
-Fast Horse | horse,Shark,Blue,Slow,fast
-Small Whale | Star,Fish,Hot,Shark,Green
-Big Cloud | big,Fish,Lion,Shark,Blue
-Market | Tree,Hot,market,Shark,Flower
-Library | Star,library,Hot,Sad,Green
-Funny Bird | bird,Fish,Red,Cat,Moon
-Knight | Happy,knight,Moon,Dog,Big
-Storm | storm,Happy,Shark,Sun,Red
-Funny Star | Horse,star,Whale,Angry,funny
-Sad Tree | Tree,Star,sad,Small,Shark
-Actor | Star,actor,Horse,Shark,Moon
-Funny Bear | Horse,Fish,Cold,Cat,funny
-Blue Whale | blue,Fish,Slow,Whale,whale
-Green Cat | Cloud,Horse,Lion,green,Moon
-Blue Cloud | blue,Fish,Red,Green,Slow
-Funny Moon | Cold,Bear,Cat,Green,Flower
-Red Star | Cold,Red,red,Green,star
-Angry Flower | Cute,flower,Shark,Sun,Green
-Swimming | Fish,Blue,Green,swimming,Big
-Farmer | Star,Fish,Lion,Moon,farmer
-Truck | Cold,Bear,Sad,truck,Angry
-Church | church,Red,Green,Angry,Whale
-Banana | Happy,Small,Sun,Flower,Big
-Small Flower | Happy,Fish,flower,small,Slow
-Volcano | Fish,Bear,Sad,Green,volcano
-Restaurant | restaurant,Tree,Sun,Red,Whale
-Teacher | Cloud,Small,Sun,teacher,Slow
-Slow Moon | Shark,Cold,slow,Green,moon
-Church | Horse,Happy,Fish,church,Funny
-Pirate | Tree,Cute,Star,pirate,Cat
-Small Bear | Star,Cat,Sad,small,Angry
-Princess | Cloud,Cold,Green,princess,Big
-Blue Bird | Tree,bird,blue,Cloud,Lion
-Hot Bird | bird,hot,Cloud,Cold,Sad
-Cold Sun | Star,sun,Small,Shark,Bear
-Karate | Tree,Horse,Happy,Fish,Moon
-Green Bird | Tree,bird,Hot,green,Cat
-Scientist | Cloud,scientist,Green,Slow,Whale
-Happy Tree | happy,Cloud,Fish,Green,tree
-Blue Fish | blue,Fish,Small,Cold,Green
-Small Bird | bird,Happy,Cold,Sad,Moon
-Hot Lion | hot,Small,Sun,Green,lion
-Helicopter | Cute,Star,Happy,helicopter,Cat
-Queen | queen,Cloud,Fish,Shark,Bird
-Red Bear | Star,Small,Bear,red,Whale
-Cute Horse | Cloud,horse,Blue,Sad,Big
-Blue Dog | Cute,blue,Cat,Sad,Blue
-Red Shark | Happy,Fish,Bear,red,Slow
-Funny Tree | Scary,Cloud,Horse,funny,tree
-Cute Fish | Tree,Happy,Blue,Green,Dog
-Red Whale | Tree,Cloud,Sad,red,Moon
-Island | Cat,Green,Flower,Angry,Fast
-Scary Lion | Cloud,Fish,lion,scary,Big
-Green Shark | Sun,green,Flower,Moon,Slow
-Big Lion | big,Hot,Blue,lion,Moon
-Green Bear | Happy,Lion,Sun,green,Red
-Market | Tree,Cloud,market,Green,Big
-Engineer | Star,Horse,Bear,engineer,Cat
-Big Bear | Cloud,Horse,big,Happy,Small
-Funny Shark | Cute,Happy,Flower,Slow,Whale
-Pilot | Hot,Lion,Bear,Flower,Angry
-Firefighter | Star,Shark,Flower,Big,firefighter
-Rainbow | Star,Hot,rainbow,Angry,Whale
-Cute Cloud | Hot,Fish,Cold,Sad,cloud
-Blue Horse | blue,Cloud,horse,Green,Flower
-Banana | Cute,Star,Sun,Blue,Green
-Scientist | scientist,Fish,Red,Cat,Slow
-Slow Shark | Happy,Hot,Bear,slow,Blue
-Slow Sun | Cloud,Lion,sun,slow,Cat
-Funny Bird | bird,Cloud,Lion,Cold,Sun
-Small Dog | Happy,Lion,Cold,Sun,dog
-Library | library,Horse,Hot,Green,Moon
-Fast Star | Happy,Cold,Sun,Sad,star
-Pilot | Tree,Cloud,Sun,Sad,Green
-Cute Bear | Happy,Hot,Sad,Green,bear
-Angry Bird | Tree,Star,bird,Fish,Lion
-Police | police,Small,Cat,Green,Angry
-Fast Shark | Cloud,Hot,Cold,shark,Whale
-Hot Whale | Tree,hot,Horse,Cat,Blue
-Train | Hot,Sun,train,Green,Angry
-Cute Flower | flower,Shark,Big,cute,Fast
-Painter | Hot,Fish,Sad,painter,Big
-Small Moon | Tree,Hot,Red,Green,moon
-Park | Cloud,Lion,park,Dog,Big
-Hot Sun | Tree,Scary,hot,sun,Sun
-Cold Shark | Cute,Small,Blue,Moon,shark
-Blue Bear | blue,Horse,Fish,Moon,Angry
-Scary Flower | Hot,flower,Shark,Sad,Flower
-Slow Moon | Cute,Lion,Small,Cold,slow
-Cold Bear | Cloud,Lion,Slow,Angry,bear
-Funny Bear | Horse,Shark,Moon,funny,bear
-Scary Shark | Cloud,Happy,Sun,Green,shark
-Angry Horse | Happy,Hot,horse,Angry,angry
-Blue Sun | Cute,Star,blue,sun,Small
-Car | Lion,Sun,Blue,Green,car
-Red Lion | Cute,Star,red,lion,Slow
-Sad Horse | Star,Cloud,sad,horse,Sun
-Blue Dog | blue,Horse,Lion,Shark,Cat
-Baker | Star,Cold,Blue,Green,baker
-Golf | Cute,Happy,Blue,Flower,Funny
-Sad Bear | Tree,Happy,sad,Lion,Cold
-Factory | Cloud,Shark,factory,Sad,Moon
-Hot Bear | hot,Happy,Lion,Shark,bear
-Castle | Hot,castle,Red,Blue,Sad
-Blue Moon | Cute,blue,Happy,Fish,Lion
-Slow Star | Star,Hot,Small,slow,Blue
-Slow Bird | bird,Cloud,slow,Moon,Angry
-Fast Star | Tree,Horse,Shark,Green,star
-Cute Fish | Cute,Happy,Shark,Moon,Angry
-Big Cloud | big,Happy,Small,Flower,Slow
-Sad Flower | Tree,Cute,sad,flower,Red
-Slow Whale | Cloud,Cold,slow,Green,Moon
-Red Whale | Cloud,Happy,Red,Sad,red
-Cold Sun | sun,Small,Cold,Bear,Big
-Hotel | Tree,Sun,Red,Sad,hotel
-Red Cloud | Scary,Happy,Cold,red,Green
-Karate | Hot,Shark,Sad,Green,karate
-Green Bird | bird,Lion,Red,green,Angry
-Dinosaur | Cute,Sun,Red,Sad,Fast
-Scientist | Cloud,scientist,Happy,Small,Green
-Hot Tree | hot,Cloud,Horse,Cold,Shark
-Fast Whale | Hot,Cold,Shark,Blue,whale
-Small Moon | Happy,Hot,Lion,Bear,moon
-Happy Star | happy,Star,Horse,Red,star
-Blue Lion | blue,Small,Cat,Sad,lion
-Jungle | Star,Happy,Cold,Sun,jungle
-Forest | Star,Fish,Hot,Sun,forest
-Happy Fish | happy,Cloud,Horse,Hot,Shark
-Green Moon | Cute,Happy,Lion,green,moon
-Singer | Happy,Small,Red,Blue,Fast
-Phone | Tree,Star,Blue,Green,phone
-Blue Moon | Tree,blue,Small,Green,moon
-Restaurant | restaurant,Cute,Bear,Slow,Funny
-Small Whale | Tree,Small,Green,small,whale
-Fast Fish | Star,Horse,Fish,Cat,Blue
-Hot Dog | Tree,hot,Happy,Lion,Cat
-Blue Flower | blue,Happy,flower,Sun,Blue
-Judo | Cute,Cloud,judo,Red,Fast
-Cute Star | Cloud,Green,star,Slow,Moon
-Angry Star | Cute,Lion,star,Whale,angry
-Beach | beach,Hot,Red,Cat,Blue
-Big Moon | Cute,big,Small,Sun,Cat
-Red Fish | Horse,Happy,Lion,red,Big
-Garden | Cloud,garden,Horse,Bear,Sad
-Blue Cat | blue,Cloud,Happy,Fish,Lion
-Angry Bird | bird,Lion,Sun,Red,Flower
-Small Shark | Fish,Moon,Slow,small,shark
-River | Happy,Sun,river,Cat,Fast
-Baker | Lion,Small,Sun,Sad,baker
-Cute Bird | Tree,bird,Blue,Green,Moon
-Funny Cat | Cute,Cold,cat,Slow,Angry
-Hot Fish | Star,Cloud,hot,Lion,Cat
-Green Bear | Star,Lion,Sun,Red,green
-Slow Cloud | slow,Moon,Slow,cloud,Dog
-Hot Tree | hot,Horse,Hot,Cold,Red
-Slow Star | Star,Hot,Small,slow,star
-Blue Star | blue,Cold,Shark,Sun,Blue
-Blue Lion | blue,Happy,Cold,Sad,Blue
-Red Cat | Bear,red,cat,Moon,Angry
-Happy Flower | happy,Star,Cloud,Hot,Shark
-Angry Dog | Happy,Small,Shark,dog,Slow
-Sad Shark | Cute,sad,Red,Slow,shark
-Tunnel | Cute,Fish,tunnel,Sad,Angry
-Sad Horse | Cute,sad,horse,Sad,Flower
-Green Bird | bird,Small,Sun,green,Sad
-Sad Moon | Cloud,Hot,sad,Lion,Bear
-Red Cloud | Bear,Cat,Sad,red,Angry
-Funny Flower | Cute,flower,Red,Blue,Sad
-Slow Bear | Cloud,Happy,Hot,Small,slow
-Penguin | Cloud,Lion,Sad,Moon,Big
-Boxing | Cute,Cloud,boxing,Shark,Bird
-Scary Bird | bird,Happy,Small,Sun,Sad
-Fast Lion | Star,Horse,Hot,Sun,lion
-Sad Fish | Fish,sad,Cat,Sad,Slow
-Market | Cloud,Fish,Lion,market,Green
-Football | Star,football,Shark,Red,Blue
-Angry Tree | Cloud,Horse,Happy,Hot,Sun
-Happy Horse | happy,Happy,Hot,Lion,horse
-Small Sun | Tree,Hot,sun,Bear,Moon
-Sad Horse | Tree,sad,horse,Cat,Blue
-Hockey | Horse,hockey,Shark,Blue,Flower
-Hot Moon | hot,Hot,Cold,moon,Dog
-Hot Bird | Cute,bird,hot,Lion,Sun
-Happy Tree | happy,Happy,Hot,Bear,Flower
-Slow Cat | Happy,Small,Shark,slow,Cat
-Sad Moon | sad,Small,Sad,moon,Whale
-Driver | Star,Happy,Sun,Moon,Big
-Angry Tree | Cute,Shark,Red,Blue,Flower
-Big Fish | Cute,big,Sad,Slow,fish
-Cold Tree | Small,Bear,Sad,tree,cold
-Guitar | Red,Blue,Flower,guitar,Fast
-Scary Sun | Star,sun,Shark,Bear,Blue
-Cold Bird | bird,Cloud,Happy,Shark,Angry
-Blue Shark | blue,Fish,Hot,Cold,Sun
-Mountain | Tree,Small,mountain,Bear,Angry
-Chair | Star,chair,Happy,Bird,Funny
-Cold Horse | Cute,horse,Slow,Whale,Big
-Funny Horse | Tree,horse,Cat,Whale,Angry
-Happy Horse | happy,Hot,horse,Small,Shark
-Red Bear | Hot,red,Flower,bear,Big
-Big Cat | big,Happy,Small,Red,cat
-Red Star | Hot,Fish,Small,Cold,red
-Park | Horse,Fish,Sun,park,Moon
-Funny Fish | Bear,Flower,Whale,Angry,funny
-Funny Tree | Cute,Horse,Shark,Red,Angry
-Mountain | Cute,Star,mountain,Blue,Sad
-Green Tree | Hot,Cold,Bear,Sun,green
-Slow Whale | Lion,Cold,slow,Blue,Moon
-Small Cloud | Star,Happy,Cold,Flower,Slow
-Green Moon | Tree,Bird,green,Green,moon
-Angry Fish | Small,Bear,Red,Moon,angry
-Green Flower | flower,Shark,green,Green,Slow
-Sad Horse | Cute,Happy,sad,Lion,horse
-Slow Dog | Tree,Horse,slow,Sad,dog
-Cute Sun | Cloud,sun,Cold,Bird,Sad
-Hot Bear | hot,Cloud,Happy,Green,Moon
-Angry Cat | Cloud,Horse,Fish,Sun,cat
-Fast Fish | Cloud,Cold,Red,Moon,fast
-Blue Shark | Star,blue,Shark,Flower,Slow
-Big Moon | Cloud,big,Bear,Moon,moon
-Fast Cloud | Scary,Cloud,Whale,cloud,fast
-Volcano | Hot,Shark,Sun,Moon,volcano
-Sad Moon | Happy,Hot,sad,Sad,moon
-Angry Dog | Fish,Red,Blue,dog,Moon
-Cute Lion | Bear,Blue,lion,Slow,Angry
-Hot Flower | Tree,hot,Fish,flower,Shark
-Sad Sun | Happy,Fish,sad,sun,Cold
-Camera | Small,Sun,Blue,Sad,Flower
-Fast Lion | Cute,Cold,Bear,Sad,lion
-Beach | beach,Lion,Cold,Sun,Slow
-Funny Lion | Cloud,Cold,Bear,lion,funny
-Rocket | Fish,Bear,rocket,Sad,Whale
-Slow Bear | Star,Horse,slow,Sad,Green
-Small Flower | Cute,flower,Sun,Blue,Green
-Blue Moon | Star,blue,Happy,Cat,moon
-Cute Whale | Scary,Star,Shark,Blue,whale
-Small Horse | Tree,Cloud,horse,Lion,Blue
-Football | Cute,football,Happy,Lion,Blue
-Hot Fish | hot,Horse,Hot,Bear,Sun
-Tunnel | Happy,Fish,tunnel,Small,Flower
-Castle | Tree,Cute,Scary,castle,Bear
-Car | Cloud,Horse,Happy,car,Whale
-Cute Flower | Cloud,Fish,Lion,flower,Blue
-Green Moon | Small,green,Green,moon,Big
-Princess | Hot,Small,Red,princess,Slow
-Red Dog | Cute,Sun,Blue,red,dog
-Baseball | baseball,Cloud,Small,Shark,Sun
-Spaceship | Sad,Green,Moon,spaceship,Funny
-Small Dog | Star,Horse,Lion,dog,Slow
-Hot Tree | hot,Hot,Small,Bear,Slow
-Sad Horse | sad,horse,Cold,Shark,Red
-Golf | Cute,Small,Red,Sad,Moon
-Angry Bear | Scary,Star,Cold,Moon,angry
-Slow Fish | Cute,Red,slow,Sad,Flower
-Red Fish | Star,Fish,Lion,Red,red
-Scary Bear | Hot,Cold,Flower,scary,bear
-Apple | Horse,Fish,Shark,Cat,apple
-Tennis | tennis,Lion,Shark,Red,Cat
-Soldier | Cloud,Horse,Fish,Cold,Red
-Writer | Shark,Cat,Sad,writer,Slow
-Red Whale | Cloud,Hot,Lion,Cold,Cat
-Market | market,Small,Sad,Moon,Whale
-Blue Tree | Star,blue,Shark,Red,tree
-Table | Tree,Cloud,Slow,table,Funny
-Jungle | Small,Cold,jungle,Blue,Green
-Slow Flower | Horse,Cold,flower,Red,slow
-Baseball | baseball,Tree,Star,Hot,Cold
-Big Moon | big,Happy,Fish,Lion,Hot
-Red Sun | Fish,sun,Sun,Bird,red
-Red Dog | Cloud,Horse,Sad,red,dog
-Red Lion | Happy,Small,Sun,red,lion
-Slow Bird | Cute,Tree,bird,Fish,Lion
-Fast Whale | Horse,Cold,Bear,whale,Moon
-Happy Bird | happy,bird,Bear,Sun,Slow
-Sad Tree | Horse,sad,Small,Sun,Slow
-Small Shark | Star,Happy,Shark,small,Angry
-Scary Sun | Happy,sun,Lion,Whale,scary
-Green Bear | Hot,Cold,Bear,green,Blue
-Small Whale | Cloud,Bear,Flower,small,whale
-Blue Dog | Cute,blue,Cloud,Happy,Hot
-Fast Lion | Horse,Shark,Bird,lion,Moon
-Slow Shark | Small,Red,slow,Moon,shark
-Scary Sun | Hot,sun,Sun,Cat,Moon
-Green Cloud | Cloud,Cold,Shark,green,Flower
-Blue Cat | Cute,blue,Cloud,Lion,Red
-Computer | Happy,Fish,computer,Green,Moon
-Hot Sun | Tree,Star,hot,sun,Cold
-Angry Cat | Star,Horse,Happy,Flower,cat
-Happy Bird | happy,bird,Fish,Sun,Sad
-Cold Fish | Cute,Fish,Lion,Sun,Moon
-Blue Whale | blue,Sun,Cat,Flower,Moon
-Queen | queen,Horse,Green,Moon,Big
-Soccer | Tree,Cloud,soccer,Shark,Red
-Princess | Cute,Cat,Green,Moon,princess
-Fast Moon | Cute,Tree,Fish,moon,Angry
-Angry Sun | Horse,sun,Blue,Green,Flower
-Skateboard | skateboard,Cloud,Happy,Dog,Big
-Cute Lion | Horse,Cold,Red,Sad,Green
-Fast Whale | Hot,Shark,whale,Moon,Angry
-Tunnel | tunnel,Shark,Sad,Moon,Big
-Big Shark | Cute,big,Lion,Small,Sun
-Blue Cat | Cute,Star,blue,Shark,cat
-Sad Lion | Cute,sad,Small,Shark,Red
-Soldier | Cute,Star,soldier,Cold,Funny
-Small Whale | Cold,Cat,Sad,Moon,small
-Funny Lion | Tree,Cute,Cold,Cat,lion
-Green Tree | Star,Horse,Hot,green,Cat
-Red Whale | Sun,Blue,red,Green,whale
-Big Tree | Tree,Cloud,big,Fish,Flower
-Slow Cat | Cute,Small,Shark,Sun,Red
-Cold Star | Tree,Star,Lion,star,Slow
-Scary Sun | Hot,sun,Small,Cold,Bear
-Road | Cute,Hot,Small,road,Cat
-Happy Cloud | happy,Fish,Shark,Sun,Blue
-Funny Bird | Star,bird,Red,Green,Angry
-Small Cloud | Star,Lion,Bear,Slow,small
-Hospital | hospital,Lion,Small,Blue,Flower
-Truck | Cloud,Happy,Hot,Lion,truck
-Knight | Shark,Sun,knight,Cat,Flower
-Dinosaur | Fish,Sun,Sad,Slow,Fast
-Green Sun | Cute,Fish,sun,green,Blue
-Happy Star | happy,Cloud,Shark,Sun,Red
-Bicycle | Cute,Cloud,Happy,Shark,bicycle
-Green Bird | Cute,bird,Fish,Small,Shark
-Green Lion | Fish,green,Cat,Blue,lion
-King | Star,Small,king,Sad,Flower
-Red Tree | Cute,Tree,Star,Cloud,red
-Scary Sun | Tree,Happy,sun,Slow,scary
-Skateboard | Cute,skateboard,Happy,Small,Sun
-Hot Bird | bird,hot,Cloud,Fish,Shark
-Angry Cloud | Lion,Cat,angry,cloud,Fast
-Engineer | Tree,Bear,engineer,Green,Moon
-Castle | Horse,Happy,Fish,castle,Blue
-Small Fish | Bear,small,Angry,Whale,Big
-Sad Sun | Hot,sad,Fish,sun,Bear
-Happy Horse | happy,horse,Lion,Sad,Green
-Angry Cloud | Cloud,Horse,Happy,angry,Moon
-Green Cloud | Sun,green,Cat,Sad,cloud
-Red Fish | Cute,Star,Bear,red,Moon
-Green Bear | Horse,Sun,green,Moon,bear
-Angry Cat | Fish,Small,cat,angry,Big
-Scary Whale | Small,Bear,Cat,whale,scary
-Engineer | Hot,Small,Red,engineer,Flower
-Cute Cloud | Star,Slow,Angry,cloud,cute
-Painter | Hot,Small,Sun,Flower,painter
-Hot Lion | hot,Happy,Cat,Sad,Green
-Hot Shark | Cute,hot,Cold,Sun,Slow
-Baseball | baseball,Hot,Fish,Shark,Slow
-Scary Cat | Lion,Small,Red,cat,scary
-Factory | Cute,factory,Red,Cat,Sad
-Wizard | wizard,Horse,Lion,Cat,Fast
-Scary Tree | Cute,Big,Happy,Sun,scary
-Truck | Shark,truck,Angry,Fast,Funny
-River | Star,Hot,river,Slow,Fast
-Sad Bear | Tree,sad,Small,Shark,Bear
-Wizard | wizard,Cloud,Small,Red,Whale
-Funny Shark | Cute,Fish,Hot,Lion,Angry
-Slow Flower | Cute,Happy,Small,flower,Cold
-Happy Tree | happy,Cute,Big,Hot,Fish
-Farmer | Tree,Hot,Lion,Green,farmer
-Happy Shark | happy,Horse,Flower,Whale,shark
-Cold Sun | Happy,sun,Cold,Sad,Flower
-Dinosaur | Happy,Lion,Shark,Bear,Funny
-Bridge | Tree,Fish,bridge,Green,Blue
-Happy Lion | happy,Cute,Star,Shark,Blue
-Happy Flower | happy,Horse,Hot,Fish,Cold
-Slow Bear | Hot,Cold,Shark,slow,bear
-Scary Moon | Red,Sad,Moon,moon,Slow
-Happy Fish | happy,Tree,Cloud,Sun,fish
-Hot Lion | hot,Hot,Small,Red,lion
-Hot Moon | hot,Horse,Sad,moon,Slow
-Green Lion | Tree,Cloud,Cold,Red,green
-Forest | Cute,Happy,forest,Slow,Fast
-Red Moon | Cold,Red,Sad,red,moon
-Cute Cat | Cold,Sun,Green,cat,Angry
-Green Bird | bird,Lion,Cold,green,Blue
-Table | Happy,Hot,Shark,table,Funny
-Happy Star | happy,Hot,Lion,Cat,Sad
-Happy Fish | happy,Star,Small,Cat,Big
-Green Bear | Fish,green,Sad,Whale,Dog
-Bus | bus,Bear,Sun,Cat,Big
-Red Cat | Cloud,Horse,Shark,red,cat
-Small Whale | Horse,Shark,Sun,small,Angry
-Small Tree | Horse,Cold,Red,Blue,Flower
-Happy Dog | happy,Cute,Cold,Shark,Sad
-Funny Bird | Cute,bird,Shark,Cat,Sad
-Happy Cat | happy,Cute,Sad,Green,cat
-Artist | Hot,Lion,Cold,Sad,artist
-Funny Fish | Cloud,Happy,Small,Bear,Sad
-Funny Horse | Star,horse,Red,Cat,Blue
-Hot Shark | hot,Hot,Angry,shark,Fast
-Green Cloud | Cute,Horse,Happy,Fish,green
-Painter | Tree,Cold,Bear,Cat,painter
-Small Moon | Fish,Cold,Cat,Green,moon
-Jungle | jungle,Green,Flower,Angry,Funny
-Funny Flower | Happy,flower,Bear,Cat,Blue
-Green Star | Star,Small,green,Green,star
-Hot Sun | hot,Cloud,Fish,sun,Red
-Green Horse | Star,horse,green,Sad,Whale
-Slow Whale | Cloud,slow,Cat,Flower,Whale
-Cold Lion | Cute,Horse,Cold,Red,Cat
-Shop | Tree,Star,Cloud,shop,Small
-Funny Flower | Horse,Lion,flower,Sad,Blue
-Garden | garden,Sun,Flower,Slow,Big
-Cold Bear | Hot,Bear,Green,Slow,bear
-Cold Fish | Tree,Horse,Happy,Blue,cold
-Church | Tree,Happy,church,Sun,Cat
-Green Sun | sun,Sun,green,Sad,Green
-Violin | Happy,violin,Bear,Sun,Whale
-Small Whale | Star,Fish,Blue,small,whale
-Chef | chef,Cold,Bear,Moon,Fast
-Highway | highway,Star,Shark,Cold,Bear
-Angry Tree | Star,Cloud,Happy,Lion,angry
-River | Horse,Happy,Hot,Sun,Red
-Small Sun | Happy,sun,Sun,Sad,small
-Clown | Cute,Horse,Blue,Flower,clown
-Cute Whale | Fish,Sad,Green,Flower,whale
-Helicopter | Cute,Fish,Hot,helicopter,Sun
-Magazine | Star,Cloud,Horse,Red,magazine
-Fast Cloud | Cute,Hot,Cold,Sad,Blue
-Golf | Small,Shark,Cat,Slow,golf
-Music | Cute,Shark,Cold,music,Sun
-Bicycle | Cloud,Happy,bicycle,Red,Moon
-Blue Flower | blue,Cloud,Small,flower,Sun
-Happy Lion | happy,Tree,Red,Sad,lion
-Factory | Lion,factory,Sad,Flower,Moon
-Cute Star | Shark,Cat,star,Whale,Angry
-Singer | Cute,Funny,Shark,Sad,Big
-Hot Fish | Star,hot,fish,Slow,Big
-Cute Flower | Fish,Hot,Cold,flower,Sad
-Red Star | Cute,Lion,Sun,red,Green
-Computer | Tree,Cloud,Fish,Lion,computer
-Robot | Tree,Star,robot,Red,Slow
-Cute Star | Tree,Bear,Red,star,cute
-Cold Horse | Cute,Star,Horse,Happy,horse
-Farmer | Fish,Red,Moon,farmer,Fast
-Funny Fish | Tree,Sun,Sad,Whale,funny
-Island | Tree,Happy,Shark,Blue,Moon
-Cute Whale | Star,Horse,Happy,Cold,Slow
-Happy Tree | happy,Star,Horse,Small,Sad
-Hot Sun | hot,sun,Sad,Blue,Slow
-Golf | Happy,Lion,Flower,Angry,Fast
-Happy Moon | happy,Fish,Lion,Moon,moon
-Cold Whale | Tree,Star,Small,Cat,Sad
-Big Star | Star,big,Lion,Flower,star
-Green Bird | bird,Bear,Sun,green,Big
-Angry Bear | Cute,Star,Happy,Bear,angry
-Slow Shark | Shark,Bear,Sun,slow,Slow
-Slow Bird | Cute,bird,slow,Blue,Cat
-Actor | actor,Horse,Sun,Blue,Fast
-Painter | Shark,Bear,Flower,painter,Funny
-Fast Bear | Lion,Cat,Green,Flower,fast
-Desert | desert,Cute,Red,Whale,Big
-Funny Shark | Cold,Dog,Slow,Angry,shark
-Hot Bird | Star,bird,hot,Lion,Bear
-Farmer | Cold,Sun,Flower,Slow,farmer
-Computer | Fish,Small,computer,Flower,Slow
-Airport | Star,airport,Horse,Bear,Sad
-Mosque | mosque,Cloud,Small,Flower,Moon
-Big Fish | big,Small,Cat,Moon,Big
-Fast Moon | Tree,Cold,moon,Angry,fast
-Slow Dog | Tree,Shark,Bear,slow,Cat
-Cute Bird | bird,Fish,Hot,Shark,Sad
-Small Dog | Cute,Tree,Sad,Green,dog
-Boxing | Tree,Happy,boxing,Cold,Bird
-Fast Star | Red,Cat,Flower,star,Moon
-Volcano | Tree,Cloud,Fish,Red,Whale
-Small Tree | Big,Cloud,Fish,Moon,small
-Angry Sun | Happy,sun,Small,Slow,Whale
-Camera | Tree,Blue,Green,camera,Big
-Computer | Star,Scary,computer,Slow,Funny
-Blue Bird | bird,blue,Happy,Small,Green
-Rollercoaster | rollercoaster,Fish,Lion,Bear,Sun
-Green Shark | Small,green,Cat,Moon,shark
-Sad Moon | Happy,sad,Cold,Sad,Green
-Green Fish | Tree,Happy,Fish,Lion,Sun
-Sad Bird | Tree,bird,sad,Cold,Shark
-Slow Cloud | Star,Bear,slow,Sad,Flower
-Hockey | Cute,Fish,hockey,Small,Sad
-Yoga | Cloud,Cold,yoga,Sad,Fast
-Ocean | ocean,Happy,Small,Blue,Whale
-Forest | Tree,Horse,forest,Cat,Moon
-Angry Shark | Cloud,Hot,Green,Flower,shark
-Cold Flower | Horse,Hot,Cold,flower,Sad
-Happy Moon | happy,Happy,Cat,Blue,moon
-Blue Lion | Tree,blue,Horse,Cat,lion
-Big Flower | Cute,Tree,big,flower,Red
-Scary Whale | Shark,Sun,Green,Whale,whale
-Cold Lion | Hot,Lion,Red,lion,Whale
-Sad Shark | Hot,sad,Fish,Shark,Sun
-Castle | castle,Small,Cold,Sad,Blue
-Fast Dog | Horse,Happy,Cat,dog,fast
-Blue Tree | blue,Horse,Happy,Lion,Flower
-Garden | Scary,Cloud,garden,Sad,Angry
-Song | Cute,Star,Horse,Happy,Hot
-Cute Star | Hot,Small,Shark,Flower,star
-Fast Tree | Cute,Bear,Red,Green,Moon
-Angry Flower | Lion,flower,Shark,Blue,Slow
-Cold Shark | Star,Shark,Red,Blue,shark
-Football | Cute,football,Lion,Cold,Sun
-Cute Star | Horse,Blue,star,Moon,Dog
-Happy Star | happy,Cloud,Lion,Shark,Blue
-Happy Star | happy,Sun,Red,Flower,star
-Funny Sun | Star,sun,Blue,Moon,funny
-Happy Tree | happy,Tree,Cold,Cat,Flower
-Funny Lion | Cloud,Blue,lion,Whale,funny
-Ocean | ocean,Shark,Bear,Sad,Green
-Small Tree | Big,Bear,Flower,small,Angry
-Angry Fish | Small,Red,Cat,Sad,Slow
-Library | library,Hot,Red,Sad,Green
-Violin | violin,Small,Sun,Blue,Angry
-Highway | highway,Fish,Lion,Small,Sun
-Skateboard | skateboard,Star,Hot,Cat,Big
-Magazine | Horse,Red,magazine,Blue,Green
-Green Fish | Horse,Lion,Cold,green,Angry
-Bicycle | Happy,Fish,bicycle,Sun,Cat
-Green Shark | Happy,Small,Cold,Shark,Red
-Pilot | Blue,Green,Slow,Fast,pilot
-Fast Horse | Happy,horse,Bear,Sun,Flower
-Funny Bird | bird,Shark,Moon,Slow,funny
-Big Tree | Cute,big,Fish,Small,Shark
-Boxing | Happy,Fish,boxing,Cold,Slow
-Slow Bear | slow,Cat,Green,Slow,bear
-Fast Bird | Tree,bird,Cold,Slow,fast
-Cold Fish | Small,Cold,Sun,Green,Angry
-Sad Whale | Hot,sad,Sun,Blue,Green
-Red Moon | Tree,Star,Happy,red,moon
-Angry Star | Cloud,Small,Sun,Blue,star
-Cute Bear | Cute,Star,Cloud,Shark,Whale
-Jungle | Cute,Bear,jungle,Whale,Funny
-Sad Tree | Tree,Hot,sad,Bird,Dog
-Hot Shark | Tree,hot,Happy,Lion,shark
-Cold Horse | Tree,Star,horse,Shark,Flower
-Hot Cloud | Cute,hot,Cloud,Lion,Small
-Happy Whale | happy,Cloud,Horse,whale,Big
-Angry Whale | Hot,Small,Slow,Whale,angry
-Cute Tree | Small,Bird,Sun,Green,tree
-Green Cloud | Horse,Fish,Small,Bear,green
-Bottle | Horse,Small,Shark,bottle,Fast
-Cold Dog | Fish,Lion,dog,Whale,cold
-Slow Lion | Happy,Hot,Lion,Sun,slow
-Small Tree | Happy,Sad,Moon,small,tree
-Singer | Hot,Cold,Shark,Slow,Whale
-Angry Tree | Star,Hot,Fish,Bear,angry
-Angry Flower | Happy,Lion,flower,Shark,angry
-Happy Fish | happy,Tree,Happy,Fish,Bear
-Scary Bear | Bear,Green,Moon,Whale,scary
-Angry Whale | Cold,Red,Sad,Green,Angry
-Blue Cat | Cute,blue,Sun,Red,Cat
-Blue Bear | Tree,blue,Hot,Small,Sun
-Sad Lion | Cute,Hot,sad,Sun,Blue
-Green Horse | Cute,Happy,horse,green,Blue
-Cute Cloud | Cute,Hot,Small,Moon,Slow
-School | Tree,Happy,school,Cat,Blue
-Angry Cat | Hot,Shark,Red,Blue,cat
-Judo | judo,Small,Bear,Red,Sad
-Hot Shark | hot,Horse,Small,Bear,shark
-Red Horse | Fish,horse,red,Flower,Moon
-Artist | Hot,Cat,Green,Moon,artist
-Library | library,Happy,Fish,Bear,Cat
-Scary Flower | Fish,Lion,flower,Bear,Blue
-Happy Cloud | happy,Cloud,Shark,Sad,Moon
-Happy Cat | happy,Happy,Cold,Shark,Bird
-Red Sun | Tree,Star,sun,Red,Blue
-Fast Fish | Tree,Happy,Fish,Red,Sad
-Blue Star | Star,blue,Cloud,Bear,Sad
-Music | Cold,Shark,music,Cat,Flower
-Small Fish | Happy,Fish,Fast,small,Whale
-Shop | Scary,shop,Lion,Shark,Whale
-Music | Horse,Small,music,Sad,Green
-Laptop | Star,laptop,Bear,Red,Fast
-Angry Shark | Hot,Fish,Green,Flower,shark
-Hot Bear | Cute,Tree,hot,Cold,Sad
-Happy Sun | happy,Cloud,Fish,sun,Sun
-Sad Bear | Cute,Scary,sad,Lion,Bear
-Fast Flower | Tree,Cute,Fish,flower,Blue
-Cute Fish | Star,Scary,Lion,Cold,cute
-Happy Bear | happy,Tree,Horse,Happy,Sad
-Mosque | mosque,Cold,Moon,Slow,Fast
-Driver | Horse,Shark,Cold,Whale,Funny
-Spaceship | Star,Cloud,Shark,Big,spaceship
-Market | Star,Horse,market,Shark,Cold
-Scary Horse | Star,Cloud,Fish,horse,Bear
-Red Moon | Star,Cloud,Horse,Small,Blue
-Angry Cloud | Tree,Cold,Green,Flower,Whale
-Green Star | Horse,Fish,Sun,green,Blue
-Cute Bear | Cold,Sun,Dog,bear,cute
-Cold Bear | Cute,Tree,Cold,Bear,bear
-Firefighter | Cold,Red,Cat,Moon,firefighter
-Sad Fish | Hot,sad,Shark,Cat,Green
-Big Lion | Star,big,Hot,Blue,lion
-Angry Dog | Fish,Lion,Bear,dog,Whale
-Sad Whale | sad,Lion,Shark,Flower,whale
-Church | Hot,church,Sun,Cat,Blue
-Guitar | Hot,Lion,Small,Cold,guitar
-Bridge | Cloud,Cold,bridge,Green,Big
-Green Shark | Cute,Cloud,Cold,green,Slow
-Princess | Lion,Small,Sun,princess,Whale
-Red Cat | Cute,Shark,Sad,red,Green
-Happy Shark | happy,Fish,Cold,shark,Angry
-Sad Shark | Happy,sad,Lion,Small,Cold
-Judo | judo,Sun,Cat,Flower,Moon
-Sad Bird | Cute,bird,Cloud,sad,Sun
-Red Star | Cute,Horse,Cat,Blue,red
-Angry Flower | Fish,Hot,flower,Flower,Angry
-Farmer | Cute,Lion,Shark,Cold,Angry
-Funny Horse | Lion,horse,Small,Green,funny
-Scary Lion | Tree,Horse,Blue,lion,Whale
-Fast Bear | Cute,Shark,Cold,Slow,Whale
-School | Cute,Shark,school,Sun,Angry
-Fast Tree | Happy,Sad,Green,Slow,fast
-Castle | Horse,castle,Bear,Sun,Blue
-Red Dog | Cute,Small,Red,red,dog
-Tennis | Horse,tennis,Hot,Red,Cat
-Clown | Horse,Bear,Blue,Green,clown
-Slow Bird | bird,Lion,slow,Cat,Moon
-Zoo | zoo,Happy,Bird,Big,Fast
-Cute Cat | Cloud,Sun,Cat,Blue,Flower
-Boxing | boxing,Cat,Sad,Slow,Whale
-Slow Bird | Star,bird,Hot,slow,Blue
-Cute Dog | Hot,Cold,Red,Blue,dog
-Blue Star | blue,Fish,Bear,Green,star
-Song | Cold,Sad,song,Flower,Funny
-Scary Lion | Fish,Sun,lion,Flower,Slow
-Hot Moon | Cute,Tree,hot,Happy,Shark
-Small Lion | Cloud,Bear,Cat,Green,lion
-Red Whale | Cute,Scary,Horse,Sun,red
-Sad Sun | Cloud,sad,sun,Cold,Red
-Funny Bear | Happy,Small,Sun,funny,bear
-Scary Shark | Small,Sun,Sad,shark,scary
-Violin | Star,Fish,violin,Whale,Angry
-Sad Shark | Hot,sad,Sun,Cat,Sad
-Funny Sun | Star,Horse,Happy,sun,Sun
-Island | Cute,Hot,Red,Moon,Whale
-Scary Cat | Cute,Lion,Sun,cat,Angry
-Red Fish | Hot,Bear,Red,red,Big
-Blue Tree | Big,Star,blue,Cold,Blue
-Cold Lion | Tree,Horse,Sun,lion,cold
-Blue Cloud | Cute,blue,Cloud,Cold,Red
-Fast Dog | Tree,Shark,Cat,dog,Whale
-Small Sun | Star,sun,small,Whale,Big
-Blue Dog | blue,Cloud,Lion,Cold,Blue
-Hot Dog | Tree,hot,Fish,Small,Blue
-King | Small,king,Red,Cat,Green
-Blue Lion | Cute,blue,Horse,Sad,lion
-Sad Whale | Star,Cloud,Horse,Hot,sad
-Sad Star | Star,sad,Small,Red,Green
-Music | Fish,music,Moon,Angry,Whale
-Green Shark | Star,Happy,Shark,green,Red
-Cute Whale | Star,Horse,Red,Moon,whale
-Green Cat | Cloud,Hot,Small,Sun,green
-Fast Fish | Tree,Bird,Slow,Whale,fast
-Mountain | Star,Horse,Small,mountain,Slow
-Sad Cat | Cloud,Happy,sad,Lion,Sun
-Big Bear | Cute,big,Sad,Green,Slow
-Small Cat | Tree,Star,Fish,Sad,cat
-Blue Lion | blue,Small,Green,lion,Moon
-Funny Whale | Star,Happy,whale,Green,Slow
-Blue Moon | Tree,blue,moon,Big,Fast
-Park | Star,Cloud,park,Moon,Slow
-Football | Star,football,Cloud,Bear,Flower
-Sad Horse | Cloud,Horse,sad,horse,Bear
-Angry Dog | Tree,Bear,Cat,dog,Whale
-Scary Lion | Sun,Cat,lion,Slow,Angry
-Astronaut | Star,Horse,Dog,astronaut,Funny
-Singer | Star,Small,Cat,Angry,singer
-Guitar | Cute,Hot,Lion,Blue,guitar
-Cute Tree | Cloud,Hot,Blue,Moon,Whale
-River | Horse,river,Slow,Big,Fast
-Skateboard | Tree,skateboard,Star,Cold,Big
-Scary Cloud | Cloud,Happy,Bear,Flower,cloud
-Big Cat | Cute,Tree,big,Red,Green
-Red Dog | Small,red,dog,Green,Whale
-Scary Flower | Tree,Lion,flower,Shark,Slow
-Green Dog | Tree,Horse,Shark,Bird,green
-Restaurant | restaurant,Hot,Fish,Sun,Sad
-Cute Whale | Cloud,Horse,whale,cute,Fast
-Funny Bear | Hot,Lion,Blue,Whale,funny
-Angry Horse | Horse,Happy,horse,Small,Blue
-Hot Tree | hot,Happy,Lion,Green,Flower
-King | Lion,Shark,king,Red,Sun
-Dance | Lion,Small,Red,Blue,Sad
-Happy Dog | happy,Cloud,Shark,Cat,Sad
-Red Cloud | Shark,Sun,Red,red,cloud
-Sad Cloud | sad,Lion,Bear,Flower,Moon
-Green Shark | Cute,Horse,Cold,Sun,green
-Cold Lion | Fish,Small,Bear,Blue,lion
-Elephant | Tree,Small,Sun,elephant,Flower
-Actor | Tree,actor,Cloud,Shark,Green
-Blue Lion | Cute,Star,blue,Red,Cat
-Scary Cat | Tree,Cloud,Happy,Flower,cat
-Blue Tree | Big,blue,Sad,Whale,tree
-Funny Cat | Cute,Fish,Shark,Blue,cat
-Slow Shark | Tree,Horse,Hot,Shark,slow
-Scary Star | Fish,Cold,Blue,star,scary
-Cold Cat | Bear,cat,Whale,Big,cold
-Slow Sun | Tree,sun,Shark,slow,Blue
-Singer | Cloud,Sun,Sad,Moon,Slow
-Green Horse | Horse,horse,Bear,green,Green
-Small Lion | Star,Cloud,Lion,lion,small
-Small Moon | Lion,Small,Bear,moon,small
-Soccer | Happy,soccer,Red,Flower,Moon
-Big Dog | big,Cat,Blue,dog,Angry
-Cold Sun | sun,Lion,Cold,Bear,Sun
-Blue Whale | blue,Cold,Sad,Green,Angry
-Cold Tree | Tree,Happy,Bear,Whale,tree
-Judo | Hot,judo,Cold,Bear,Sun
-Motorcycle | Tree,Horse,Fish,Lion,motorcycle
-Slow Whale | Horse,Lion,slow,Sad,Moon
-Blue Shark | blue,Red,Blue,Flower,Moon
-Baker | Tree,Star,Shark,Sun,Sad
-Factory | Fish,Shark,factory,Sun,Cat
-Tiger | Cloud,Shark,Blue,Whale,tiger
-Big Flower | big,Lion,flower,Sun,Slow
-Cold Cat | Tree,Bear,cat,Whale,Big
-Cold Cat | Star,Lion,Cat,cat,Moon
-Big Sun | big,Happy,Hot,sun,Shark
-Big Fish | Cloud,big,Shark,Cat,Sad
-Blue Star | Tree,blue,Small,Shark,Red
-Big Shark | Tree,big,Small,Shark,Red
-Cute Dog | Cute,Cloud,Red,Green,dog
-Small Bear | Hot,Small,Cold,Red,small
-Fast Lion | Star,Fish,Shark,lion,Angry
-Angry Horse | Cloud,Horse,Hot,horse,Sad
-Funny Whale | Horse,Hot,Bird,whale,funny
-Scientist | Tree,scientist,Sun,Cat,Fast
-Funny Star | Cute,Cloud,Happy,Cat,star
-Cold Whale | Cloud,Horse,Cold,Red,whale
-Cute Sun | Star,Fish,sun,Flower,Dog
-Red Sun | Cute,Star,Happy,sun,Blue
-Cold Cloud | Scary,Horse,Sun,Whale,cloud
-Cold Fish | Star,Horse,Red,cold,fish
-Hot Star | hot,Horse,Cold,star,Slow
-Bridge | Star,Happy,Sad,bridge,Blue
-Big Moon | Star,big,Small,Blue,Moon
-Table | Star,Cloud,Cold,Sun,table
-Yoga | Scary,yoga,Blue,Slow,Angry
-Shop | Cloud,Hot,shop,Bear,Cat
-Swimming | Cute,Fish,Lion,Cold,swimming
-Airport | Cute,Tree,Cold,Green,Fast
-Green Bird | Cute,Star,bird,green,Green
-Scary Bird | Cute,bird,Horse,Fish,Lion
-Sad Dog | Star,Hot,sad,Lion,Red
-Cold Bird | bird,Cloud,Fish,Hot,Small
-Farmer | Cute,Tree,Shark,Sun,Red
-Happy Fish | happy,Tree,Small,Shark,Sad
-Happy Bear | happy,Lion,Bear,Sun,Red
-Firefighter | Cloud,Lion,Red,Sad,firefighter
-Cold Fish | Star,Bear,Green,Whale,cold
-Cute Tree | Cloud,Shark,Red,Moon,Dog
-Happy Moon | happy,Tree,Lion,Sad,Green
-Yoga | Cute,Cold,yoga,Sad,Flower
-Red Horse | Horse,horse,Shark,red,Angry
-Blue Fish | blue,Horse,Fish,Small,Blue
-Scary Sun | sun,Lion,Bear,Cat,Moon
-Cold Flower | Tree,Small,flower,Red,Slow
-Blue Tree | blue,Hot,Red,Angry,tree
-Doctor | Cloud,Lion,Slow,Whale,doctor
-Cute Moon | Hot,Small,Sun,Cat,moon
-Slow Lion | Star,Fish,Lion,Red,slow
-Chocolate | Cloud,chocolate,Fish,Shark,Big
-Funny Lion | Tree,Cloud,Fish,lion,Moon
-Sad Horse | Tree,Star,Hot,sad,horse
-Happy Cat | happy,Hot,Bear,cat,Angry
-School | Tree,Star,Happy,school,Red
-Cold Lion | Tree,Happy,Fish,lion,Slow
-Hot Whale | Cute,hot,Happy,Sad,whale
-Princess | Cute,Star,Hot,Shark,princess
-Small Whale | Horse,Hot,Blue,small,Slow
-Cute Shark | Star,Cloud,Red,Sad,Moon
-Hockey | Horse,Lion,hockey,Sad,Moon
-Elephant | Small,Cold,Red,elephant,Moon
-Sad Horse | sad,Lion,horse,Sun,Slow
+Coffee | Bean, drink, black, morning, energizer
+Butterfly | fly, caterpillar, wing, insect, colorful
+Microwave | food, warm, fast, appliance, kitchen
+Rainbow | colors, sun, rain, sky, arch
+Toothbrush | teeth, brush, paste, mouth, clean
+Airplane | pilot, fly, airport, travel, sky
+Spaghetti | noodles, Italian, tomato, eat, long
+Firefighter | fire, extinguish, red, emergency, man
+Snowman | winter, snow, cold, carrot, hat
+Mobile_Phone | call, smartphone, app, screen, portable
+Chocolate | brown, sweet, cocoa, bar, eat
+Hospital | doctor, sick, nurse, building, healing
+Guitar | music, strings, play, instrument, song
+Sun | bright, warm, day, sky, star
+Bicycle | pedals, ride, tires, two, wheeled
+Cabinet | clothes, store, furniture, door, wood
+Penguin | antarctica, black-white, bird, swim, waddle
+Birthday | cake, party, candles, gift, year
+Ant | small, insect, forest, street, colony
+Television | watch, program, screen, couch, device
+Waterfall | water, fall, high, river, nature
+Balloon | inflate, float, kids, party, helium
+Computer | calculator, work, internet, keyboard, mouse
+Lamp | light, bright, turn_on, room, ceiling
+Volcano | mountain, lava, erupt, fire, ash
+Chewing_Gum | chew, sweet, mouth, bubble, flavor
+Ocean | sea, water, large, blue, deep
+Key | door, unlock, metal, bunch, small
+Garden | plants, flowers, dirt, outside, work
+Refrigerator | cold, food, store, kitchen, appliance
+Book | read, pages, story, paper, author
+Moon | night, sky, round, satellite, shine
+Bread | bake, eat, baker, slice, dough
+Pirate | ship, sea, treasure, sword, eyepatch
+Shower | bathe, water, clean, soap, wet
+Giraffe | neck, long, africa, animal, spots
+Newspaper | read, news, paper, current, morning
+Chair | sit, furniture, table, leg, wood
+Raincoat | rain, wet, wear, protection, jacket
+Camera | photo, record, picture, click, lens
+Circus | animals, acrobat, tent, clown, arena
+Clock | time, show, wrist, tick, minute
+Table | eat, surface, furniture, four, stand
+Hedgehog | spike, animal, small, night, roll
+Telephone | call, speak, hear, number, cable
+Money | pay, bill, coin, bank, rich
+Radio | music, listen, station, device, waves
+Soap_Bubble | soap, bubble, burst, fly, shimmer
+Mushroom | forest, collect, cap, eat, poisonous
+Ladder | high, climb, wood, steps, house
+Ship | water, sail, large, sea, boat
+Honey | bee, sweet, bread, jar, yellow
+Skateboard | roll, ride, sport, board, four
+Ice_Cream | cold, sweet, summer, lick, scoop
+Rocket | space, fly, launch, fast, sky
+Blimp | air, party, float, hot, basket
+Crocodile | large, reptile, river, teeth, dangerous
+Candle | light, fire, burn, wax, darkness
+Brush | paint, color, artist, hair, handle
+Museum | art, old, building, look, exhibition
+Wellington_Boot | rain, feet, wear, mud, rubber
+Dinosaur | ancient, large, extinct, fossil, animal
+Soup | liquid, eat, warm, spoon, vegetable
+Swing | playground, back_and_forth, sit, chain
+Gum_Ball_Machine | candy, buy, coin, round, vending
+Fireplace | fire, warm, apartment, wood, chimney
+Trumpet | instrument, blow, music, loud, brass
+Umbrella | rain, protection, open, wet, stick
+Grape | fruit, small, wine, plant, blue
+Sled | snow, ride, winter, hill, wood
+Mailbox | letter, post, red, box, insert
+Scarf | neck, warm, winter, wool, wear
+Globe | earth, sphere, map, world, spin
+Scissors | cut, paper, metal, sharp, open
+Church | pray, god, tower, bell, building
+Broom | sweep, clean, floor, handle, hair
+Flute | music, play, blow, wood, instrument
+Wizard | magic, trick, hat, rabbit, illusion
+Cake | bake, sweet, birthday, eat, dough
+Cup | drink, coffee, hot, handle, ceramic
+Helmet | head, protection, motorcycle, bicycle, wear
+Scooter | ride, child, two, foot, push
+Tunnel | mountain, road, dark, drive_through, long
+Rope | pull, tie, thick, knot, jump
+Carrot | vegetable, orange, rabbit, eat, long
+Roller_Coaster | ride, fast, high, amusement_park, rail
+Towel | dry, wet, bathroom, cloth, soft
+Radiator | engine, car, cold, water, cool
+Slide | playground, down, fast, fun, high
+Jigsaw_Puzzle | pieces, assemble, picture, game, tricky
+Castle | door, safe, key, old, king
+Lighthouse | sea, light, warning, high, coast
+Chalk | blackboard, draw, write, white, school
+Pillow | soft, sleep, sofa, head, cover
+Tie | neck, wear, business, shirt, knot
+Bucket | water, carry, sand, handle, clean
+Brick | build, house, red, stone, wall
+Anchor | ship, secure, water, metal, drop
+Fork | eat, stab, cutlery, four, metal
+Cloud | sky, white, rain, water, fluffy
+Flashlight | light, dark, battery, shine, small
+Stripe | pattern, line, across, zebra, shirt
+Pumpkin | halloween, orange, vegetable, round, big
+Tire | wheel, car, rubber, black, turn
+Glove | hand, warm, winter, leather, wear
+Fishing_Rod | fish, water, hook, line, sport
+Tent | camping, sleep, outside, fabric, pole
+Bottle | drink, glass, water, cap, empty
+Sandal | shoe, summer, open, foot, beach
+Comb | hair, brush, plastic, teeth, style
+Backpack | carry, school, travel, back, bag
+Tablecloth | table, fabric, clean, lay, protect
+Lizard | reptile, small, green, sun, quick
+Glue | stick, paper, tube, liquid, strong
+Mirror | see, reflect, glass, bathroom, image
+Shovel | dig, sand, dirt, tool, long
+Saddle | horse, ride, bicycle, sit, leather
+Flower | plant, colorful, grow, garden, smell
+Wallet | money, store, small, leather, pocket
+Can | metal, food, conserve, open, round
+Stairs | steps, up, go, house, floor
+Corkscrew | wine, bottle, open, spiral, turn
+Globe | earth, sphere, map, world, spin
+Linen_Closet | clothes, store, wash, fold, cabinet
+Polar_Bear | north_pole, white, cold, animal, snow
+Hammer | nail, hit, tool, wood, handle
+Zipper | jacket, open, close, teeth, metal
+Belt | pants, hold, leather, stomach, buckle
+Mill | wind, grind, wings, old, grain
+Doll | play, girl, toy, small, person
+Cap | head, protection, sun, wear, sport
+Pliers | grip, hold, tool, metal, squeeze
+Soap_Bubble | soap, bubble, burst, fly, shimmer
+Calculator | calculate, numbers, device, buttons, result
+Wing | bird, fly, arm, feather, instrument
+Elevator | lift, up, down, cabin, building
+Cable | electricity, connect, long, black, pull
+Bucket | water, carry, sand, handle, clean
+Top | spin, toy, fast, ground, round
+Muffin | cake, small, sweet, bake, paper
+Compass | north, direction, point, device, magnet
+Socket | electricity, plug, wall, connect, contact
+Drum_Set | music, play, drum, loud, instrument
+Curtain | window, close, fabric, light, decorate
+Skis | snow, ride, sport, winter, long
+Funnel | fill, liquid, top, wide, narrow
+Harpoon | catch, fish, spear, throw, water
+Barometer | weather, air_pressure, measure, device, display
+Juggler | throw, catch, circus, balls, artist
+Matchstick | fire, light, wood, small, flame
+Attic | house, upstairs, store, old, dark
+Ceramics | clay, fire, dishes, art, hard
+Lipstick | lips, color, cosmetic, apply, red
+Cheese | milk, eat, yellow, hole, bread
+Whale | sea, large, mammal, water, blow
+Antler | deer, head, bone, animal, large
+Snake | crawl, reptile, long, poisonous, hiss
+Donkey | animal, carry, long, ears, stubborn
+Spider | web, eight, legs, insect, weaver
+Ping_Pong | table, ball, paddle, sport, play
+Hairdresser | hair, cut, wash, salon, client
+Fence | garden, border, wood, high, barrier
+Worm | earth, crawls, rain, animal, fishing
+Wig | hair, fake, put_on, costume, head
+Tongue | taste, mouth, lick, speak, organ
+Clay | dirt, wet, build, earth, brown
+Cactus | desert, spines, plant, dry, green
+Snail | shell, slow, crawl, slime, garden
+Lint | fabric, small, remove, sweater, dust
+Equation | math, calculate, numbers, solution, sign
+Magnifying_Glass | see, enlarge, glass, small, read
+Octopus | sea, ink, arms, swim, head
+Bumper | car, front, back, protection, metal
+Vase | flowers, water, glass, place, table
+Linen | fabric, plant, light, clothes, summer
+Mosaic | stones, picture, assemble, colorful, art
+Sail | boat, wind, fabric, travel, large
+Pudding | dessert, sweet, wobble, eat, cold
+Sailor | ship, sea, work, marine, hat
+Kite | fly, wind, sky, paper, line
+Painter | color, brush, art, canvas, profession
+Sculpture | art, stone, form, statue, carve
+Race_Car | fast, drive, race, sport, engine
+Port | ship, water, dock, city, boat
+Marble | stone, white, polished, cold, building
+Locks | hair, curls, long, style, head
+Pepper | vegetable, red, green, eat, pod
+Bell | ring, church, sound, metal, tower
+Recipe | cook, instruction, ingredients, dish, food
+Globe | earth, sphere, map, world, spin
+Candlestick | light, candles, metal, hold, table
+Fireplace | fire, warm, apartment, wood, chimney
+Citrus | fruit, sour, orange, yellow, juice
+Knitting_Needle | knit, wool, yarn, sweater, long
+Binoculars | telescope, see, far, observe, two
+Cutting_Board | kitchen, cut, knife, wood, lay
+Sack | fabric, carry, large, potato, empty
+Owl | night, bird, large, eyes, wise
+Violin | fiddle, music, bow, strings, instrument
+Tongue | taste, mouth, lick, speak, organ
+Hourglass | time, measure, sand, glass, flip
+Boomerang | throw, return, australia, wood, hunt
+Riddle | question, solve, tricky, think, mystery
+Stamp | letter, post, glue, small, collect
+Scorpion | animal, stinger, desert, poisonous, eight
+Fence_Post | fence, wood, set_up, large, pole
+Hose | water, pour, garden, long, rubber
+Steamer | ship, steam, water, travel, old
+Reflection | light, see, surface, mirror, image
+Fair | carnival, carousel, game, candy, festival
+Handcuffs | police, restrain, metal, hand, secure
+Dresser | furniture, drawer, clothes, store, wood
+Skewer | meat, grill, metal, long, stick
+Stamp | paper, mark, rubber, ink, press
+Glacier_Ice | ice, old, mountain, frozen, cold
+Captain | ship, lead, boss, sea, hat
+Straw | hay, dry, yellow, animals, bale
+Mop | floor, clean, wet, handle, tidy
+Crab | animal, claw, water, walk, red
+Neon_Sign | light, advertising, neon, building, shine
+Voodoo | magic, doll, africa, spell, believe
+Duvet | sleep, warm, cover, fabric, soft
+Charcoal | grill, fire, black, burn, wood
+Chimney | smoke, roof, high, fireplace, pull
+Slingshot | shoot, stone, rubber, pull, weapon
+Plaster | leg, break, white, doctor, firm
+Cotton_Candy | sweet, fair, pink, sticky, sugar
+Duffel_Bag | sailor, bag, fabric, carry, large
+Fan | air, wave, cool, hand, fold
+Smoke_Signal | fire, indian, communication, signal, rise
+Dromedary | camel, desert, hump, animal, ride
+Skeleton | bones, body, fear, dead, halloween
+Tent_Canvas | tent, fabric, rain, cover, large
+Camouflage | hide, clothes, green, not_see, pattern
+Chassis | car, bottom, wheels, structure, frame
+Diaper | baby, change, wet, bottom, absorb
+Snowball | snow, throw, round, cold, winter
+Cobweb | spider, thread, stick, net, catch
+Tape | stick, firm, roll, brown, package
+Sandpaper | wood, smooth, rough, rub, surface
+Mustache | hair, mouth, man, grow, beard
+Cannon | war, shoot, ball, loud, old
+Watercolor | paint, water, draw, picture, light
+Watering_Can | water, flowers, pour, garden, metal
+Leaf_Blower | leaves, away, blow, device, garden
+Keyboard | computer, type, keys, tap, device
+Headlight | light, car, bright, front, see
+Swim_Cap | hair, wet, swim, rubber, head
+Starfish | sea, animal, five, arms, water
+Bellows | fire, air, blow, fireplace, leather
+Snail | shell, slow, crawl, slime, garden
+Wing | bird, fly, arm, feather, instrument
+Necklace | jewelry, neck, wear, chain, beads
+Fence | garden, border, wood, high, barrier
+Wax | candle, bees, melt, soft, shine
+Straw | drink, long, plastic, suck, glass
+Roller_Skates | shoes, roll, wheels, ride, sport
+Typewriter | type, old, paper, keys, write
+Coffee_Maker | coffee, make, cup, kitchen, device
+Railing | stairs, hold, metal, protection, high
+Bulletin_Board | notes, pin, hang, memo, cork
+Sewing_Machine | sew, fabric, thread, fast, device
+Cookie | pastry, sweet, crispy, tea, bake
+Ticket | train, bus, pay, paper, travel
+Sponge | absorb, clean, wet, soft, purify
+Icicle | ice, long, hang, cold, winter
+Compass | north, direction, point, device, magnet
+Veil | bride, face, hide, thin, cloth
+Windmill | wind, turn, grind, holland, old
+Headphones | music, listen, ears, cable, wear
+Intersection | road, meet, four, traffic, light
+Bookmark | book, page, remember, paper, ribbon
+Tissue_Paper | thin, gift, wrap, light, colored
+Binoculars | see, far, observe, device, optical
+Globe | earth, sphere, map, world, spin
+Whipped_Cream | cream, sweet, cake, spray, dessert
+Air_Mattress | water, swim, air, lay, inflate
+Light_Switch | light, on, off, wall, press
+Nightgown | sleep, wear, long, soft, clothes
+Candle | light, fire, burn, wax, darkness
+Whistle | blow, loud, sport, referee, metal
+Bicycle_Chain | bicycle, turn, metal, oil, move
+Axe | wood, chop, sharp, tool, handle
+Lettuce | salad, green, eat, leaves, dressing
+Wanted_Poster | police, search, person, description, image
+Tuning_Fork | music, tone, strike, metal, hear
+Egg_Timer | time, cook, egg, sand, kitchen
+Oar | boat, water, move, wood, sport
+Globe | earth, sphere, map, world, spin
+Sandbag | sand, weight, boxing, firm, large
+Eaves | roof, water, drain, gutter, rain
+Root | plant, earth, hold, bottom, dig
+Lasso | rope, throw, catch, cowboy, texas
+Tweezers | small, grip, pull, metal, sharp
+Hole_Punch | paper, hole, make, office, press
+Hammock | lie, relax, fabric, tree, swing
+Toothpaste | teeth, brush, tube, fresh, mint
+Clothesline | laundry, hang, dry, string, garden
+Walker | aid, old, wheels, walk, support
+Loose_Tooth | child, milk_tooth, wobbly, falls, shake
+Chainmail | armor, metal, warrior, old, wear
+Felt | fabric, wool, thick, craft, hat
+Plaster | wound, stick, small, protection, pharmacy
+Rubber_Band | rubber, pull, hold, elastic, ring
+Notebooks | paper, school, write, pages, bind
+Coat_Rack | clothes, hang, hallway, hook, cabinet
+Lighthouse | sea, light, warning, high, coast
+Crosshair | target, shoot, center, line, rifle
+Hanger | clothes, hang, wire, hook, closet
+Spittoon | spit, container, metal, old, smoke
+Washboard | wash, laundry, old, wood, rub
+Rutabaga | vegetable, eat, round, yellow, turnip
+Gargoyle | roof, water, divert, figure, stone
+Treadmill | run, machine, sport, fitness, inside
+Air_Filter | air, clean, engine, clear, breathe
+Whisk | stir, kitchen, egg_white, metal, bake
+Wing_Nuts | screw, turn, hand, tight, metal
+Fan | air, wave, cool, hand, fold
+Globe | earth, sphere, map, world, spin
+Starfish | sea, animal, five, arms, water
+Soldering_Iron | solder, metal, hot, tip, tool
+Battle_Axe | axe, weapon, fight, medieval, wood
+C_Clamp | wood, tight, hold, clamp, tool
+Leech | animal, blood, suck, small, water
+Hand_Mill | grind, grain, old, turn, coffee
+Pumice_Stone | skin, rub, rough, light, volcanic
+Slingshot | stones, shoot, rubber, pull, weapon
+Baptismal_Font | church, water, baby, baptize, stone
+Papier_Mâché | paper, paste, shape, art, light
+Fishing_Net | catch, fish, net, water, trap
+Grease_Stain | oil, clothes, remove, wash, spot
+Tailoring | clothes, sew, fabric, profession, alter
+Dam | water, hold, river, wall, large
+Abacus | calculate, beads, old, count, frame
+Riveted_Pants | jeans, pants, firm, work, metal
+Black_Pudding | sausage, black, eat, meat, cook
+Flagpole | flag, high, stand, pole, raise
+Ice_Skates | ice, ride, blades, winter, sport
+Globe | earth, sphere, map, world, spin
+Barrier | gate, road, train, open, close
+Spinning_Wheel | spin, wool, old, turn, yarn
+Crochet_Hook | crochet, thread, knit, small, metal
+Fire_Extinguisher | fire, extinguish, red, emergency, foam
+Squat | exercise, legs, deep, training, fitness
+Crumble_Cake | cake, crumbs, sweet, bake, dough
+Drawing_Pin | paper, fasten, wall, small, sharp
+Spoon | eat, soup, cutlery, metal, round
+Coffee_Grinder | coffee, grind, bean, device, old
+Turtleneck | sweater, neck, warm, clothes, high
+Camel | desert, hump, animal, ride, dry
+Globe | earth, sphere, map, world, spin
+Ball_of_Wool | wool, ball, knit, yarn, thread
+Knuckle_Duster | fist, metal, weapon, hit, ring
+Windmill | wind, turn, grind, holland, old
+Wing | bird, fly, arm, feather, instrument
+Tractor_Trailer | truck, big, pull, freight, road
+Protractor | measure, degree, geometry, school, round
+Ponytail | hair, tie, back, head, long
+Apron | clothes, cook, tie, fabric, protection
+Reading_Glasses | read, eyes, help, glasses, small
+Soap_Opera | series, television, long, dramatic, daily
+Globe | earth, sphere, map, world, spin
+Caterpillar | small, crawl, leaf, butterfly, eat
+Snail | shell, slow, crawl, slime, garden
+Wing | bird, fly, arm, feather, instrument
+Fireplace | fire, warm, apartment, wood, chimney
+Citrus | fruit, sour, orange, yellow, juice
+Globe | earth, sphere, map, world, spin
+Camel | desert, hump, animal, ride, dry
+Globe | earth, sphere, map, world, spin
+Snail | shell, slow, crawl, slime, garden
+Wing | bird, fly, arm, feather, instrument
+Fireplace | fire, warm, apartment, wood, chimney
+Citrus | fruit, sour, orange, yellow, juice
+Globe | earth, sphere, map, world, spin
+Camel | desert, hump, animal, ride, dry
+Globe | earth, sphere, map, world, spin
+Snail | shell, slow, crawl, slime, garden
+Wing | bird, fly, arm, feather, instrument
+Fireplace | fire, warm, apartment, wood, chimney
+Citrus | fruit, sour, orange, yellow, juice
+Globe | earth, sphere, map, world, spin
+Camel | desert, hump, animal, ride, dry
+Globe | earth, sphere, map, world, spin
