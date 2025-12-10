@@ -13,8 +13,6 @@ chrome.storage.local.get(['apiKey', 'model', 'selectedText', 'selectedTimestamp'
       document.getElementById('abbreviation').value = data.selectedText;
     }
   }
-  // Clear the selected text after using it
-  chrome.storage.local.remove(['selectedText', 'selectedTimestamp']);
 });
 
 // Open settings page
@@ -57,26 +55,38 @@ document.getElementById('explainBtn').addEventListener('click', async function()
     let contextText = '';
     
     if (useContext) {
-      try {
-        // Get page context from content script
-        console.log('Getting active tab...');
-        const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
-        console.log('Active tab:', tab.id, tab.url);
-        
-        // Check if we can access this tab
-        if (tab.url.startsWith('chrome://') || tab.url.startsWith('chrome-extension://') || tab.url.startsWith('edge://')) {
-          console.log('Cannot access Chrome internal pages, using no context');
-          document.getElementById('useContext').checked = false;
-        } else {
-          console.log('Sending message to content script...');
-          const context = await chrome.tabs.sendMessage(tab.id, { action: 'getContext' });
-          console.log('Context received, length:', context.pageText.length);
-          contextText = context.pageText.substring(0, 3000);
+      // First, try to use the saved context from text selection
+      if (settings.selectedContext && settings.selectedTimestamp) {
+        const timeSinceSelection = Date.now() - settings.selectedTimestamp;
+        if (timeSinceSelection < 5000) {
+          // Use the saved surrounding context
+          contextText = settings.selectedContext;
+          console.log('Using saved context from selection, length:', contextText.length);
         }
-      } catch (contextError) {
-        console.error('Failed to get context:', contextError);
-        console.log('Continuing without context');
-        document.getElementById('useContext').checked = false;
+      }
+      
+      // If no saved context, fall back to getting page context
+      if (!contextText) {
+        try {
+          console.log('Getting active tab...');
+          const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+          console.log('Active tab:', tab.id, tab.url);
+          
+          // Check if we can access this tab
+          if (tab.url.startsWith('chrome://') || tab.url.startsWith('chrome-extension://') || tab.url.startsWith('edge://')) {
+            console.log('Cannot access Chrome internal pages, using no context');
+            document.getElementById('useContext').checked = false;
+          } else {
+            console.log('Sending message to content script...');
+            const context = await chrome.tabs.sendMessage(tab.id, { action: 'getContext' });
+            console.log('Context received, length:', context.pageText.length);
+            contextText = context.pageText.substring(0, 3000);
+          }
+        } catch (contextError) {
+          console.error('Failed to get context:', contextError);
+          console.log('Continuing without context');
+          document.getElementById('useContext').checked = false;
+        }
       }
     }
 
@@ -85,7 +95,7 @@ document.getElementById('explainBtn').addEventListener('click', async function()
     if (contextText) {
       prompt = `Given this webpage context: "${contextText}"
 
-Please explain what the abbreviation "${abbreviation}" means in this specific context. Be concise (2-3 sentences max). Answer in a structured format like this:
+Please explain what the abbreviation "${abbreviation}" means in this specific context. Be concise (1-3 sentences max). Answer in a structured format like this:
 
 Example1:
 HTML - Hypertext Markup Language
@@ -96,7 +106,7 @@ i.e. - id est (latin)
 means “in other words”, is used to clarify the statement before it.
 `;
     } else {
-      prompt = `Please explain what the abbreviation "${abbreviation}" commonly means. Be concise (2-3 sentences max). Answer in a structured format like this:
+      prompt = `Please explain what the abbreviation "${abbreviation}" commonly means. Be concise (1-3 sentences max). Answer in a structured format like this:
 
 Example1:
 HTML - Hypertext Markup Language
