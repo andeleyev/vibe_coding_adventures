@@ -85,9 +85,27 @@ document.getElementById('explainBtn').addEventListener('click', async function()
     if (contextText) {
       prompt = `Given this webpage context: "${contextText}"
 
-Please explain what the abbreviation "${abbreviation}" means in this specific context. Be concise (2-3 sentences max).`;
+Please explain what the abbreviation "${abbreviation}" means in this specific context. Be concise (2-3 sentences max). Answer in a structured format like this:
+
+Example1:
+HTML - Hypertext Markup Language
+A standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content.
+
+Example2:
+i.e. - id est (latin)
+means “in other words”, is used to clarify the statement before it.
+`;
     } else {
-      prompt = `Please explain what the abbreviation "${abbreviation}" commonly means. Be concise (2-3 sentences max).`;
+      prompt = `Please explain what the abbreviation "${abbreviation}" commonly means. Be concise (2-3 sentences max). Answer in a structured format like this:
+
+Example1:
+HTML - Hypertext Markup Language
+A standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content.
+
+Example2:
+i.e. - id est (latin)
+means “in other words”, is used to clarify the statement before it.
+`;
     }
 
     // Call OpenRouter API
